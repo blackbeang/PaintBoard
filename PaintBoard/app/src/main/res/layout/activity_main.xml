@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/toolsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/colorBtn"
+            android:drawableTop="@drawable/colorpalette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color" />
+
+        <Button
+            android:id="@+id/penBtn"
+            android:drawableTop="@drawable/penpalette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pen" />
+
+        <Button
+            android:id="@+id/eraserBtn"
+            android:drawableTop="@drawable/eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eraser" />
+
+        <Button
+            android:id="@+id/undoBtn"
+            android:drawableTop="@drawable/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/boardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>
